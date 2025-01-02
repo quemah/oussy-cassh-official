@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "{{$node.market_data_url}}",
+        "method": "GET"
+      }
+    }
+  ]
+}
